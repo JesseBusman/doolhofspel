@@ -1,0 +1,777 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta name="GENERATOR" content="Microsoft FrontPage 4.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<title>Nieuwe pagina 1</title> 
+</head>
+
+<body>
+<div id="verdiepingdisplay" style="position:absolute; top:75; left:175;">
+<input type="text" name="verdieping" value="0" size="1" style="border-color:white; border-style:solid;">
+</div>
+<div id="kamer26deknoppen" onclick="doe(44)" style="position:absolute; top:200; left:172">
+<input type="button" value="  0  " name="B3" onclick="lift(0)"><br>
+<input type="button" value="  1  " name="B3" onclick="lift(1)"><br>
+<input type="button" value="  2  " name="B3" onclick="lift(2)"><br>
+<input type="button" value="  3  " name="B3" onclick="lift(3)"><br>
+<input type="button" value="  4  " name="B3" onclick="lift(4)"><br>
+<input type="button" value="  5  " name="B3" onclick="lift(5)"><br><br>
+<input type="button" value="Deur open" name="B3" onclick="doe(45)"><br><br>
+</div>
+<div id="kamer26liftknoppen" style="position:absolute; top:200; left:168" onclick="doe(43)">
+<img src="liftknoppen2.bmp">
+</div>
+<div id="kamer26kandelaar" style="position:absolute; top:100; left:150;" onclick="kamer26kandelaarplaatje.src = 'liftkandelaar2.bmp';setTimeout('doe(42)',1000);lift(3.5);">
+<img src="liftkandelaar1.bmp" name="kamer26kandelaarplaatje" id="kamer26kandelaarplaatje">
+</div>
+<div id="kamer24achterhoofdschilderij" style="visibility:hidden; position:absolute; top:100; left:500;">
+<img src="kamer24achterhoofdschilderij.bmp">
+</div>
+<div id="kamer24achterhoofd" style="visibility:hidden;" style="visibility:hidden; position:absolute; top:130; left:525;" onclick="doe(38)">
+<img src="kamer24achterhoofd.bmp" name="kamer24achterhoofdfoto" id="kamer24achterhoofdfoto">
+</div>
+<div id="kamer24achterhoofd1mond" style="visibility:hidden; position:absolute; top:170; left:545; visibilty:hidden; background-color:white;" onclick="doe(39)">
+<img src="kamer24achterhoofd1mond.bmp">
+</div>
+<div id="kamer24deurknop" style="position:absolute; top:160; left:545; visibility:hidden;" onclick="doe(40)">
+<img src="kamer24deurknop.bmp" name="kamer24deurknopplaatje" id="kamer24deurknopplaatje">
+</div>
+<div id="kamer23bordjeblauwbruintekst" style="visibility:hidden; position:absolute; background-color:white; top:220; left:300; border-style:solid; border-color:blue;" onclick="doe(37)">
+Zelfportret van meneer W.W.N. Achter<br>
+(klik om dit venster te sluiten)
+</div>
+<div id="kamer22rodestip" style="position:absolute; background-color:red; left:500; top:250;" onclick="doe(35)">
+&nbsp;&nbsp;&nbsp;&nbsp;
+</div>
+<div id="kamer23bordjeblauwbruin" style="position: absolute; top:230; left:360;" onclick="doe(36)">
+<img src="bordje blauwbruin.bmp">
+</div>
+<div id="kamer23blauwoog" style="position: absolute; top:155; left:398;" onclick="oog(1)">
+<img src="blauwoog.bmp">
+</div>
+<div id="kamer23bruinoog" style="position: absolute; top:155; left:368;" onclick="oog(2)">
+<img src="bruinoog.bmp">
+</div>
+<div id="kamer21huisnummer" style="position: absolute; width: 886; height: 23; top:255; left:78;">
+<input type="text" value="87" size="2" name="huisnummervak" style="border-color:white; border-style:solid;">
+</div>
+<div id="kamer21deurbel" style="position:absolute; top:255; left:40;">
+<img src="deurbel.bmp" onclick="belAan()">
+</div>
+<div id="kamer20l" style="position:absolute; top:100; left:520;" onclick="doe(33)">
+<img src="l.bmp">
+</div>
+<div id="kamer20brief" style="position:absolute; top:250; left:250;" onclick="doe(31)">
+<img src="briefje2.bmp">
+</div>
+<div id="kamer20briefdebrief" style="visibility:hidden; position:absolute; background-color:white; top:100; left:200; border-style:solid; border-color:blue;" onclick="doe(32)">
+<br><br><br><br><br><br><br><br>
+Probeer door op dingen te klikken de spelletjes te vinden.<br>
+(klik om dit venster te sluiten)
+<br><br><br><br><br><br><br><br>
+</div>
+
+<div id="kamer19kerstboom" style="position:absolute; top:272; left:460;" onclick="schuddekerstboom()">
+<img src="kerstboom2nummer2.bmp" id="kerstboom2" name="kerstboom2">
+</div>
+<div id="kamer19munt1" style="position:absolute; top:450; left:500; visibility:hidden;" onclick="doe(27)">
+<img src="1ponder.bmp">
+</div>
+<div id="kamer19munt2" style="position:absolute; top:447; left:650; visibility:hidden;" onclick="doe(28)">
+<img src="1ponder.bmp">
+</div>
+<div id="kamer19munt3" style="position:absolute; top:450; left:540; visibility:hidden;" onclick="doe(29)">
+<img src="1ponder.bmp">
+</div>
+<div id="kamer19munt4" style="position:absolute; top:447; left:690; visibility:hidden;" onclick="doe(30)">
+<img src="1ponder.bmp">
+</div>
+
+
+<div id="kamer18put" style="position:absolute; top:178; left:300;" onmouseover="doe(24)" onmouseout="doe(25)" onclick="doe(26)">
+<img src="put.bmp" id="put" name="put">
+</div>
+<div id="kamer12vangogh" style="position:absolute; top:130; left:400;">
+<img src="vangogh2.bmp">
+</div>
+<div id="kamer12vangoghhoofd" style="position:absolute; top:138; left:415;" onclick="vangoghhoofdknipperloop()">
+<img src="vangogh2hoofd1.bmp" id="vangoghhoofd" name="vangoghhoofd">
+</div>
+<div id="kamer16kerstboom" style="position:absolute; left:430; top:120;" onclick="doe(20)">
+<img src="kerstboom.bmp">
+</div>
+<div id="kamer16munt1" style="visibility:hidden; position:absolute; top:216; left:450;" onclick="doe(21)">
+<img src="1ponder.bmp">
+</div>
+<div id="kamer16munt2" style="visibility:hidden; position:absolute; top:217; left:530;" onclick="doe(22)">
+<img src="1ponder.bmp">
+</div>
+<div id="kamer16munt3" style="visibility:hidden; position:absolute; top:91; left:492;" onclick="doe(23)">
+<img src="5p.bmp">
+</div>
+<div id="kamer9picasso" style="position:absolute; top:130; left:450;">
+<img src="picasso.bmp">
+</div>
+<div id="kamer9picassowoord" style="position:absolute; top:305; left:550;" onclick="picassoklik()">
+<img src="picassowoord.bmp" id="picassowoordplaatje" name="picassowoordplaatje">
+</div>
+<div id="kamer14brief1" style="visibility:hidden; position:absolute; top:150; left:250;" onclick="doe(11)">
+<img src="briefje2.bmp">
+</div>
+<div id="kamer14brief1debrief" style="visibility:hidden; position:absolute; background-color:white; top:200; left:200; border-style:solid; border-color:blue;" onclick="doe(15)">
+<br><br><br><br><br><br><br><br>
+Niet vergeten:<br>
+De code van de studeerkamer is (123x5x2x((4x2)+2))+(5x9)<br>
+(klik om dit venster te sluiten)
+<br><br><br><br><br><br><br><br>
+</div>
+<div id="kamer14brief2" style="visibility:hidden; top:130; left:270; position:absolute;" onclick="doe(12)">
+<img src="briefje2.bmp">
+</div>
+<div id="kamer14brief2debrief" style="visibility:hidden; position:absolute; background-color:white; top:200; left:200; border-style:solid; border-color:blue;" onclick="doe(16)">
+<br><br><br><br><br><br><br><br>
+Picasso in de opbergruimte.
+(klik om dit venster te sluiten)
+<br><br><br><br><br><br><br><br>
+</div>
+<div id="kamer14brief3" style="visibility:hidden; top:180; left:310; position:absolute;" onclick="doe(13)">
+<img src="briefje2.bmp">
+</div>
+<div id="kamer14brief3debrief" style="visibility:hidden; position:absolute; background-color:white; top:200; left:200; border-style:solid; border-color:blue;" onclick="doe(17)">
+<br><br><br><br><br><br><br><br>
+Om naar buiten te gaan, moet je een geheime gang vinden...
+(klik om dit venster te sluiten)
+<br><br><br><br><br><br><br><br>
+</div>
+<div id="kamer14brief4" style="visibility:hidden; top:150; left:350; position:absolute;" onclick="doe(14)">
+<img src="briefje2.bmp">
+</div>
+<div id="kamer14brief4debrief" style="visibility:hidden; position:absolute; background-color:white; top:200; left:200; border-style:solid; border-color:blue;" onclick="doe(18)">
+<br><br><br><br><br><br><br><br>
+(klik om dit venster te sluiten)
+<br><br><br><br><br><br><br><br>
+</div>
+<div id="kamer1kast" style="visibility:hidden; position:absolute; top:146; left:220;" onmouseout="setTimeout(doe, 2000, 9)">
+<img src="kast.bmp" id="kamer1kastplaatje" name="kamer1kastplaatje">
+</div>
+<div id="kamer11p" style="visibility:hidden; position:absolute; top:230; left:230;" onclick="doe(10)">
+<img src="1pklein.bmp">
+</div>
+<div id="kamer1laatje" onmouseover="doe(8)" style="visibility:hidden; position:absolute; top:218; left:232;">
+<img src="laatje.bmp">
+</div>
+<div id="kamerallemunt" style="visibility:hidden; position:absolute;" onclick="doe(7)">
+<img src="1plinks.bmp">
+</div>
+<div id="kamer2codeslotscherm" style="visibility:hidden; position:absolute">
+<br><br><br><br><br><br><br><br>
+Typ de goede code:<br>
+<input type="text" name="codevak" size="20"><br>
+<input type="button" name="klaarmetdecodeknop" value="Klaar" onclick="doe(6)"><br>
+
+<br><br><br><br><br><br><br><br>
+</div>
+<div id="kamer2codeslot" style="visibility:hidden; position:absolute; top:330; left:115;" onclick="doe(5)">
+<img src="codeslot.bmp">
+</div>
+<div id="kamerallegeldzak" style="visibility:hidden; position:absolute; top:250; left:30;" onclick="doe(4)">
+<img src="10p.bmp">
+</div>
+
+<div id="kamer5rodeboek" style="visibility:hidden; position:absolute; background-color:red; width:15; height:10; top:160; left:270;" onclick="doe(3)">
+&nbsp;&nbsp;&nbsp;&nbsp;
+</div><!--
+<div id="kamer5briefje" style="visibility:hidden; position:absolute; background-color:white; top:165; left:400;" onclick="doe(1)">
+<img src="briefje.bmp">
+</div>
+<div id="kamer5debrief" style="visibility:hidden; position:absolute; background-color:white; border-style:solid; border-color:blue;" onclick="doe(2)">
+<br><br><br><br><br><br><br><br>
+Klik op het goede ding,<br>
+dan gebeurt er iets: ping.<br>
+(klik om dit venster te sluiten)
+<br><br><br><br><br><br><br><br>
+</div>-->
+
+<div id="stipp1" style="position:absolute; background-color:red;" onclick="klik(stipp1)">
+&nbsp;&nbsp;&nbsp;&nbsp;
+</div>
+<div id="stipp2" style="position:absolute; background-color:red;" onclick="klik(stipp2)">
+&nbsp;&nbsp;&nbsp;&nbsp;
+</div>
+<div id="stipp3" style="position:absolute; background-color:red;" onclick="klik(stipp3)">
+&nbsp;&nbsp;&nbsp;&nbsp;
+</div>
+<div id="stipp4" style="position:absolute; background-color:red;" onclick="klik(stipp4)">
+&nbsp;&nbsp;&nbsp;&nbsp;
+</div>
+<div id="stipp5" style="position:absolute; background-color:red;" onclick="klik(stipp5)">
+&nbsp;&nbsp;&nbsp;&nbsp;
+</div>
+<p>Je bent nu <input type="text" name="T1" size="20"> en je hebt <input type="text" name="puntvak" size="4"> punt(en) en je hebt <input type="text" name="hebsleutel" size="5"> sleutel.
+<input type="button" value="Tip" name="B3" onclick="tip()"></p>
+<p><img border="0" src="kamer4.bmp" width="774" height="585" id="kamer" name="kamer"></p>
+<script>
+/**** MODERN BROWSER FIX ADDED 2023-08-09 ****/
+const huisnummervak = document.getElementsByName("huisnummervak")[0];
+const klaarmetdecodeknop = document.getElementsByName("klaarmetdecodeknop")[0];
+const codevak = document.getElementsByName("codevak")[0];
+const hebsleutel = document.getElementsByName("hebsleutel")[0];
+const puntvak = document.getElementsByName("puntvak")[0];
+const T1 = document.getElementsByName("T1")[0];
+const verdiepingdisplay = document.getElementById("verdiepingdisplay");
+const kamer26deknoppen = document.getElementById("kamer26deknoppen");
+const kamer26liftknoppen = document.getElementById("kamer26liftknoppen");
+const kamer26kandelaar = document.getElementById("kamer26kandelaar");
+const kamer26kandelaarplaatje = document.getElementById("kamer26kandelaarplaatje");
+const kamer24achterhoofdschilderij = document.getElementById("kamer24achterhoofdschilderij");
+const kamer24achterhoofd = document.getElementById("kamer24achterhoofd");
+const kamer24achterhoofdfoto = document.getElementById("kamer24achterhoofdfoto");
+const kamer24achterhoofd1mond = document.getElementById("kamer24achterhoofd1mond");
+const kamer24deurknop = document.getElementById("kamer24deurknop");
+const kamer24deurknopplaatje = document.getElementById("kamer24deurknopplaatje");
+const kamer23bordjeblauwbruintekst = document.getElementById("kamer23bordjeblauwbruintekst");
+const kamer22rodestip = document.getElementById("kamer22rodestip");
+const kamer23bordjeblauwbruin = document.getElementById("kamer23bordjeblauwbruin");
+const kamer23blauwoog = document.getElementById("kamer23blauwoog");
+const kamer23bruinoog = document.getElementById("kamer23bruinoog");
+const kamer21huisnummer = document.getElementById("kamer21huisnummer");
+const kamer21deurbel = document.getElementById("kamer21deurbel");
+const kamer20l = document.getElementById("kamer20l");
+const kamer20brief = document.getElementById("kamer20brief");
+const kamer20briefdebrief = document.getElementById("kamer20briefdebrief");
+const kamer19kerstboom = document.getElementById("kamer19kerstboom");
+const kerstboom2 = document.getElementById("kerstboom2");
+const kamer19munt1 = document.getElementById("kamer19munt1");
+const kamer19munt2 = document.getElementById("kamer19munt2");
+const kamer19munt3 = document.getElementById("kamer19munt3");
+const kamer19munt4 = document.getElementById("kamer19munt4");
+const kamer18put = document.getElementById("kamer18put");
+const put = document.getElementById("put");
+const kamer12vangogh = document.getElementById("kamer12vangogh");
+const kamer12vangoghhoofd = document.getElementById("kamer12vangoghhoofd");
+const vangoghhoofd = document.getElementById("vangoghhoofd");
+const kamer16kerstboom = document.getElementById("kamer16kerstboom");
+const kamer16munt1 = document.getElementById("kamer16munt1");
+const kamer16munt2 = document.getElementById("kamer16munt2");
+const kamer16munt3 = document.getElementById("kamer16munt3");
+const kamer9picasso = document.getElementById("kamer9picasso");
+const kamer9picassowoord = document.getElementById("kamer9picassowoord");
+const picassowoordplaatje = document.getElementById("picassowoordplaatje");
+const kamer14brief1 = document.getElementById("kamer14brief1");
+const kamer14brief1debrief = document.getElementById("kamer14brief1debrief");
+const kamer14brief2 = document.getElementById("kamer14brief2");
+const kamer14brief2debrief = document.getElementById("kamer14brief2debrief");
+const kamer14brief3 = document.getElementById("kamer14brief3");
+const kamer14brief3debrief = document.getElementById("kamer14brief3debrief");
+const kamer14brief4 = document.getElementById("kamer14brief4");
+const kamer14brief4debrief = document.getElementById("kamer14brief4debrief");
+const kamer1kast = document.getElementById("kamer1kast");
+const kamer1kastplaatje = document.getElementById("kamer1kastplaatje");
+const kamer11p = document.getElementById("kamer11p");
+const kamer1laatje = document.getElementById("kamer1laatje");
+const kamerallemunt = document.getElementById("kamerallemunt");
+const kamer2codeslotscherm = document.getElementById("kamer2codeslotscherm");
+const kamer2codeslot = document.getElementById("kamer2codeslot");
+const kamerallegeldzak = document.getElementById("kamerallegeldzak");
+const kamer5rodeboek = document.getElementById("kamer5rodeboek");
+const kamer5briefje = document.getElementById("kamer5briefje");
+const kamer5debrief = document.getElementById("kamer5debrief");
+const stipp1 = document.getElementById("stipp1");
+const stipp2 = document.getElementById("stipp2");
+const stipp3 = document.getElementById("stipp3");
+const stipp4 = document.getElementById("stipp4");
+const stipp5 = document.getElementById("stipp5");
+const kamer = document.getElementById("kamer");
+/**** END OF MODERN BROWSER FIX ****/
+
+vorigekamer = ''
+liftverdieping = 0
+buitenhuisgeweest = 0
+inmuseumgeweest = 0
+hoofdgedraaid = 0
+draaitel = 0
+min = 0
+vierdeoog = '' //1 = blauw 2 = bruin
+derdeoog = ''
+tweedeoog = ''
+eersteoog = ''
+kamer1laatjeweg = 0
+punten = 0
+kamer1_1p_gepakt = 0
+kamer5_10p_gepakt = 0
+kamer10_1p_gepakt = 0
+kamer16_10p_gepakt = 0
+kamer16_5p_gepakt = 0
+kamer16_1p_nummer1_gepakt = 0
+kamer16_1p_nummer2_gepakt = 0
+kamer19_1p_nummer1_gepakt = 0
+kamer19_1p_nummer2_gepakt = 0
+kamer19_1p_nummer3_gepakt = 0
+kamer19_1p_nummer4_gepakt = 0
+kamer24_10p_gepakt = 0
+stip = new Array('',stipp1,stipp2,stipp3,stipp4,stipp5)
+sleutelheb = 0
+oudeoudekamernum = ''
+oudekamernum = ''
+kamernum = 1
+kamerplaatjes = new Array('','kamer1.bmp',     'kamer2.bmp','kamer3.bmp',       'kamer4.bmp',    'kamer5.bmp',        'kamer6.bmp',    'kamer7.bmp',     'kamer8.bmp',  'kamer9.bmp',        'kamer10-1.bmp','kamer10-2.bmp','kamer12.bmp',   'kamer13.bmp',        'kamer14.bmp',   'kamer15.bmp',        'kamer16.bmp',         'kamer17.bmp',         'kamer18.bmp',  'kamer19.bmp','kamer20.bmp',          'kamer21.bmp',                                           'kamer22.bmp',                 'kamer23.bmp',  'kamer24.bmp',  'kamer25.bmp',  'kamer26.bmp',              'kamer27.bmp')
+kamernamen =    new Array('','in de woonkamer','in de gang','in de balkonkamer','in de overloop','in de studeerkamer','in de zitkamer','in de keuken','in de bijkeuken','in de opbergruimte','op het balkon','op het balkon','in de eetkamer','in de 1e slaapkamer','in de badkamer','in de 2e slaapkamer','in een geheime kamer','in een geheime kamer','voor het huis','in de put',  'in de spelletjeskamer','op de kruising tussen de kerkstraat en de schoolstraat','bij de ingang van het museum','in het museum','in het museum','in het museum','in de lift van het museum','in het museum')
+kamerverbindingen = new Array()
+kamerverbindingen[1] = new Array('',300,140,2,125,375,3,115,590,4) // top, left, kamer id
+kamerverbindingen[2] = new Array('',400,120,5,196,330,6,350,410,7,597,173,1)
+kamerverbindingen[3] = new Array('',350,125,8,280,200,9,550,282,1)
+kamerverbindingen[4] = new Array('',200,185,10,450,115,1)
+kamerverbindingen[5] = new Array('',450,163,2)
+kamerverbindingen[6] = new Array('',550,160,2,440,340,13,300,430,14,250,495,15)
+kamerverbindingen[7] = new Array('',400,75,12,230,188,12,150,516,8,500,83,2)
+kamerverbindingen[8] = new Array('',400,65,7,330,360,9,570,130,3)
+kamerverbindingen[9] = new Array('',300,200,8,550,323,3)
+kamerverbindingen[10] = new Array('',400,65,4,551,725,11) // kamer10-1.bmp
+kamerverbindingen[11] = new Array('',200,250,15,575,205,10) // kamer10-2.bmp
+kamerverbindingen[12] = new Array('',500,525,7,300,685,7) // kamer12.bmp
+kamerverbindingen[13] = new Array('',300,150,6)
+kamerverbindingen[14] = new Array('',300,125,15,550,177,6)
+kamerverbindingen[15] = new Array('',150,294,11,350,375,14,540,145,6)
+kamerverbindingen[16] = new Array('',545,354,9)
+kamerverbindingen[17] = new Array('',455,140,12,210,380,18)
+kamerverbindingen[18] = new Array('',510,439,17,100,290,20,362,100,21)
+kamerverbindingen[19] = new Array('',250,420,18)
+kamerverbindingen[20] = new Array('',500,322,18)
+kamerverbindingen[21] = new Array('',542,560,18)
+kamerverbindingen[22] = new Array('',500,409,21)
+kamerverbindingen[23] = new Array('',530,295,22,200,520,25)
+kamerverbindingen[24] = new Array('',530,333,23)
+kamerverbindingen[25] = new Array('',500,373,23,400,200,26)
+kamerverbindingen[26] = new Array('') // dit is de museum-lift, dus alleen niet-array kamerverbindingen
+kamerverbindingen[27] = new Array('',200,200,26)
+doealles()
+function doealles()
+{
+if (sleutelheb==0) hebsleutel.value = 'geen'
+else { hebsleutel.value = 'een' }
+stipp1.style.visibility = 'hidden'
+stipp2.style.visibility = 'hidden'
+stipp3.style.visibility = 'hidden'
+stipp4.style.visibility = 'hidden'
+stipp5.style.visibility = 'hidden'
+
+puntvak.value = punten
+
+kamer.src = kamerplaatjes[kamernum]
+T1.value = kamernamen[kamernum]
+tel = 1
+kamer2codeslot.style.visibility = 'hidden'
+if (kamernum==2) { tel = 2
+kamer2codeslot.style.visibility = 'visible' }
+if ((kamerverbindingen[kamernum][(tel*3)-2]!=undefined) && (kamernum!=26)) {
+do
+{
+stip[tel].style.top = kamerverbindingen[kamernum][(tel*3)-2]
+stip[tel].style.left = kamerverbindingen[kamernum][(tel*3)-1]
+if (kamerverbindingen[kamernum][(tel*3)]==vorigekamer) stip[tel].style.backgroundColor = '#00FF00'
+else { stip[tel].style.backgroundColor = 'red' }
+stip[tel].style.visibility = 'visible'
+tel++
+}
+while(kamerverbindingen[kamernum][tel*3]!=undefined) }
+if (kamernum==5) { //kamer5briefje.style.visibility = 'visible'
+kamer5rodeboek.style.visibility = 'visible' }
+else { //kamer5briefje.style.visibility = 'hidden'
+kamer5rodeboek.style.visibility = 'hidden' }
+if ((kamernum==10) && (kamer10_1p_gepakt==0)) { kamerallemunt.style.visibility = 'visible'
+kamerallemunt.style.top = 240
+kamerallemunt.style.left = 172 }
+else { kamerallemunt.style.visibility = 'hidden' }
+if (kamernum==1) { kamer1kast.style.visibility = 'visible'
+if (kamer1laatjeweg==0) { kamer1laatje.style.visibility = 'visible' }}
+else { kamer1kast.style.visibility = 'hidden'
+kamer1laatje.style.visibility = 'hidden' }
+if (kamernum==14) { kamer14brief1.style.visibility = 'visible'
+kamer14brief2.style.visibility = 'visible'
+kamer14brief3.style.visibility = 'visible'
+kamer14brief4.style.visibility = 'visible' }
+else { kamer14brief1.style.visibility = 'hidden'
+kamer14brief2.style.visibility = 'hidden'
+kamer14brief3.style.visibility = 'hidden'
+kamer14brief4.style.visibility = 'hidden' }
+if (kamernum==9) { kamer9picasso.style.visibility = 'visible'
+kamer9picassowoord.style.visibility = 'visible' }
+else { kamer9picasso.style.visibility = 'hidden'
+kamer9picassowoord.style.visibility = 'hidden' }
+if (kamernum==16) { kamerallegeldzak.style.top = 340
+kamerallegeldzak.style.left = 70
+kamer16kerstboom.style.visibility = 'visible'
+if (kamer16_10p_gepakt==0) kamerallegeldzak.style.visibility = 'visible' }
+else { if (kamernum!=5) kamerallegeldzak.style.visibility = 'hidden'
+kamer16kerstboom.style.visibility = 'hidden' }
+if (kamernum==12) { kamer12vangogh.style.visibility = 'visible'
+kamer12vangoghhoofd.style.visibility = 'visible'
+vangoghhoofd.src = 'vangogh2hoofd1.bmp' }
+else { kamer12vangogh.style.visibility = 'hidden'
+kamer12vangoghhoofd.style.visibility = 'hidden' }
+if (kamernum==18) { buitenhuisgeweest = 1
+kamer18put.style.visibility = 'visible' }
+else { kamer18put.style.visibility = 'hidden' }
+if (kamernum==19) kamer19kerstboom.style.visibility = 'visible'
+else { kamer19kerstboom.style.visibility = 'hidden'
+kamer19munt1.style.visibility = 'hidden'
+kamer19munt2.style.visibility = 'hidden'
+kamer19munt3.style.visibility = 'hidden'
+kamer19munt4.style.visibility = 'hidden' }
+if (kamernum==20) { kamer20brief.style.visibility = 'visible'
+kamer20l.style.visibility = 'visible' }
+else { kamer20brief.style.visibility = 'hidden'
+kamer20l.style.visibility = 'hidden' }
+if (kamernum==21) { kamer21deurbel.style.visibility = 'visible'
+kamer21huisnummer.style.visibility = 'visible' }
+else { kamer21deurbel.style.visibility = 'hidden'
+kamer21huisnummer.style.visibility = 'hidden' }
+if (kamernum==22) { kamer22rodestip.style.visibility = 'visible' }
+else { kamer22rodestip.style.visibility = 'hidden' }
+if (kamernum==23) { kamer23blauwoog.style.visibility = 'visible'
+kamer23bruinoog.style.visibility = 'visible'
+kamer23bordjeblauwbruin.style.visibility = 'visible' }
+else { kamer23blauwoog.style.visibility = 'hidden'
+kamer23bruinoog.style.visibility = 'hidden'
+kamer23bordjeblauwbruin.style.visibility = 'hidden' }
+if (kamernum==24) { kamer24achterhoofd.style.visibility = 'visible'
+kamer24achterhoofdschilderij.style.visibility = 'visible' }
+else { kamer24achterhoofd.style.visibility = 'hidden'
+kamer24achterhoofdschilderij.style.visibility = 'hidden'
+kamer24deurknop.style.visibility = 'hidden'
+//kamer24achterhoofdfoto.src = 'kamer24achterhoofd.bmp'
+if (kamernum==26) { //alert(liftverdieping)
+if (kamer26deknoppen.style.visibility=='hidden')kamer26liftknoppen.style.visibility = 'visible'
+kamer26kandelaar.style.visibility = 'visible'
+verdiepingdisplay.style.visibility = 'visible' }
+else { kamer26kandelaar.style.visibility = 'hidden'
+verdiepingdisplay.style.visibility = 'hidden'
+kamer26liftknoppen.style.visibility = 'hidden'
+kamer26deknoppen.style.visibility = 'hidden' }
+//draaitel = 0
+//hoofdgedraaid = 0
+ }
+}
+function klik(deze)
+{
+boven = deze.style.top.substring(0,deze.style.top.length-2)
+links = deze.style.left.substring(0,deze.style.left.length-2)
+
+tel = -2
+klaar = 0
+do
+{
+tel = tel + 3
+if ((kamerverbindingen[kamernum][tel]==boven) && (kamerverbindingen[kamernum][tel+1]==links)) klaar = 1
+}
+while(klaar==0)
+vorigekamer = kamernum
+kamernum = kamerverbindingen[kamernum][tel+2]
+doealles()
+}
+function doe(dit)
+{
+// kamer5debrief.style.left = 300
+// if (dit==1) kamer5debrief.style.visibility = 'visible'
+// if (dit==2) kamer5debrief.style.visibility = 'hidden'
+if (dit==3) { if (kamer5_10p_gepakt==0) { kamerallegeldzak.style.top = 250
+kamerallegeldzak.style.left = 30
+kamerallegeldzak.style.visibility = 'visible' }
+else { alert('Dat heb je al eens gedaan...') }}
+if (dit==4) { 
+punten = punten + 10
+if (kamernum==5) kamer5_10p_gepakt = 1
+if (kamernum==16) kamer16_10p_gepakt = 1
+if (kamernum==24) kamer24_10p_gepakt = 1
+kamerallegeldzak.style.visibility = 'hidden' }
+if (dit==5) kamer2codeslotscherm.style.visibility = 'visible'
+if (dit==6) { if (codevak.value==12345) kamernum = 5
+else { alert('Als je niet de code niet weet, zou ik die eerst maar eens gaan opzoeken...') }
+kamer2codeslotscherm.style.visibility = 'hidden'
+codevak.value = '' }
+if (dit==7) { 
+if ((kamernum==10) && (kamer10_1p_gepakt==0)) punten++; kamer10_1p_gepakt = 1; }
+if (dit==8) { kamer1kastplaatje.src = 'laatjeopen.bmp'
+kamer1laatje.style.visibility = 'hidden'
+if (kamer1_1p_gepakt==0) kamer11p.style.visibility = 'visible'
+kamer1laatjeweg = 1 }
+if (dit==9) { kamer1kastplaatje.src = 'kast.bmp'
+kamer1laatje.style.visibility = 'visible'
+kamer1laatjeweg = 0
+kamer11p.style.visibility = 'hidden' }
+if (dit==10) { kamer1_1p_gepakt = 1
+punten++
+kamer11p.style.visibility = 'hidden' }
+if (dit==11) kamer14brief1debrief.style.visibility = 'visible'
+if (dit==12) kamer14brief2debrief.style.visibility = 'visible'
+if (dit==13) kamer14brief3debrief.style.visibility = 'visible'
+if (dit==14) kamer14brief4debrief.style.visibility = 'visible'
+if (dit==15) kamer14brief1debrief.style.visibility = 'hidden'
+if (dit==16) kamer14brief2debrief.style.visibility = 'hidden'
+if (dit==17) kamer14brief3debrief.style.visibility = 'hidden'
+if (dit==18) kamer14brief4debrief.style.visibility = 'hidden'
+if (dit==19) { kamernum = 16
+picassowoordplaatje.src = 'picassowoord.bmp' }
+if (dit==20) { if (kamer16_1p_nummer1_gepakt==0) kamer16munt1.style.visibility = 'visible'
+if (kamer16_1p_nummer2_gepakt==0) kamer16munt2.style.visibility = 'visible' 
+if (kamer16_5p_gepakt==0) kamer16munt3.style.visibility = 'visible' }
+if (dit==21) { punten++
+kamer16_1p_nummer1_gepakt = 1
+kamer16munt1.style.visibility = 'hidden' }
+if (dit==22) { punten++
+kamer16_1p_nummer2_gepakt = 1
+kamer16munt2.style.visibility = 'hidden' }
+if (dit==23) { punten = punten + 5
+kamer16_5p_gepakt = 1
+kamer16munt3.style.visibility = 'hidden' }
+if (dit==24) put.src = "putopen.bmp"
+if (dit==25) put.src = "put.bmp"
+if (dit==26) kamernum = 19
+if (dit==27) { punten++
+kamer19_1p_nummer1_gepakt = 1
+kamer19munt1.style.visibility = 'hidden' }
+if (dit==28) { punten++
+kamer19_1p_nummer2_gepakt = 1
+kamer19munt2.style.visibility = 'hidden' }
+if (dit==29) { punten++
+kamer19_1p_nummer3_gepakt = 1
+kamer19munt3.style.visibility = 'hidden' }
+if (dit==30) { punten++
+kamer19_1p_nummer4_gepakt = 1
+kamer19munt4.style.visibility = 'hidden' }
+if (dit==31) { kamer20briefdebrief.style.visibility = 'visible'
+kamer20briefdebrief.style.backgroundColor = 'white' }
+if (dit==32) kamer20briefdebrief.style.visibility = 'hidden'
+if (dit==33) { alert('Goedzo, je hebt een spel gevonden!')
+spel1() }
+if (dit==34) { huisnummervak.value = 87 }
+if (dit==35) { if (punten-5>-1) { alert('Het kost je 5 punten om in het museum te gaan.')
+punten = punten - 5
+kamernum = 23
+doealles() }
+else { if (punten>1) alert('Het museum kost 5 punten!\nJij hebt maar ' + punten + ' punten!') 
+else { if (punten==1) alert('Het museum kost 5 punten!\nJij hebt maar 1 punt!')
+if (punten==0) alert('Het museum kost 5 punten!\nJij hebt helemaal geen punten!') }}}
+if (dit==36) { kamer23bordjeblauwbruintekst.style.visibility = 'visible'
+kamer23bordjeblauwbruin.style.visibility = 'hidden' }
+if (dit==37) { kamer23bordjeblauwbruintekst.style.visibility = 'hidden'
+kamer23bordjeblauwbruin.style.visibility = 'visible' }
+if (dit==38) { if (hoofdgedraaid==0) { draaivolgorde = new Array('2','3','4','5','6','11','10','9','8','1')
+draaihoofd1() }}
+if (dit==39) { 
+if (hoofdgedraaid==1) { draaivolgorde = new Array('8','9','10','11','6','5','4','3','2','7')
+draaihoofd1() }}
+if (dit==40) { kamer24deurknopplaatje.src = 'kamer24deurknop2.bmp'
+setTimeout('doe(41)',400) }
+if (dit==41) { kamer24deurknopplaatje.src = 'kamer24deurknop.bmp'
+if (kamer24_10p_gepakt==0) { 
+kamerallegeldzak.style.visibility = 'visible'
+kamerallegeldzak.style.left = 200 }}
+if (dit==42) { kamer26kandelaarplaatje.src = 'liftkandelaar1.bmp' }
+if (dit==43) { kamer26deknoppen.style.visibility = 'visible'
+kamer26liftknoppen.style.visibility = 'hidden' }
+if (dit==44) { kamer26deknoppen.style.visibility = 'hidden'
+kamer26liftknoppen.style.visibility = 'visible' }
+if (dit==45) { if (liftverdieping==0) kamernum = 25
+if (liftverdieping==3.5) kamernum = 27
+
+}
+if (dit!=43) if (dit!=41) if (dit!=36) doealles()
+}
+function naarkamer(deze)
+{
+if (deze!=5) kamernum = deze
+else { alert('Om in de studeerkamer te komen moet je de goede code kennen.')
+kamer2codeslotscherm.style.visibility = 'visible' }
+doealles()
+}
+function picassoklik()
+{
+picassowoordplaatje.src = 'picassowoordklik.bmp'
+setTimeout('doe(19)',200)
+}
+function tip()
+{
+if (kamer1_1p_gepakt==0) alert('Ga naar de woonkamer en kijk in het kastje.')
+else { if (kamer5_10p_gepakt==0) alert('Ga naar de badkamer en kijk op een briefje voor een rekensom.\nTyp het antwoord bij de studeerkamer in.\nGa dan studeren in een boek.')
+else { if (kamer10_1p_gepakt==0) alert('Ga maar snel op het balkon kijken.\nOm daar te komen moet je bij de overloop links.')
+else { if (kamer16_5p_gepakt==0) alert('Ga naar Picasso in de opbergruimte en ga daar lekker kerst vieren.')
+else { if (kamer16_1p_nummer1_gepakt==0) alert('Ga naar Picasso in de opbergruimte en ga daar lekker kerst vieren.')
+else { if (kamer16_1p_nummer2_gepakt==0) alert('Ga naar Picasso in de opbergruimte en ga daar lekker kerst vieren.')
+else { if (kamer16_10p_gepakt==0) alert('Ga naar Picasso in de opbergruimte.') 
+else { if (kamer19_1p_nummer1_gepakt==0) alert('Ga naar buiten in de put.')
+else { if (buitenhuisgeweest==0) alert('Mooi hoofd heeft van Gogh in de eetkamer, vooral als je met hem naar buiten gaat.')
+else { if (inmuseumgeweest==0) alert('Het antwoord op het mysterie van de deurbel: vul het antwoord op 87-42 op de plek van 87 en bel aan.')
+else { if (kamer24_10p_gepakt==0) { alert('Tsja, wat moet je nou met meneer W.W.N. Achter in het museum?')
+alert('Het heeft te maken met de achterste letters z\'n oogkleuren.')
+alert('Achter staat voor de achterste letters van zijn oogkleuren: W van blauw en N van bruin.')
+alert('Hij heet W.W.N. dus druk (niet al te snel) twee keer op z\'n blauwe oog en daarna 1 keer op z\'n bruine oog.') }
+
+}}}}}}}}}}
+}
+function vangoghhoofdknipperloop()
+{
+
+if (vangoghhoofd.src.substring(vangoghhoofd.src.length-18,vangoghhoofd.src.length)=='vangogh2hoofd1.bmp') { knipper = 0
+vangoghhoofdknipperloop2() }
+else { vangoghhoofd.src = 'vangogh2hoofd4.bmp'
+setTimeout('naarkamer(17)',750) }
+}
+function vangoghhoofdknipperloop2()
+{
+if (knipper%2==0) vangoghhoofd.src = 'vangogh2hoofd2.bmp'
+else { vangoghhoofd.src = 'vangogh2hoofd1.bmp' }
+knipper++
+vangoghhoofdknipperloop3()
+}
+function vangoghhoofdknipperloop3()
+{
+if (knipper<6) setTimeout('vangoghhoofdknipperloop2()',500)
+else { vangoghhoofd.src = 'vangogh2hoofd3.bmp' }
+}
+function schuddekerstboom()
+{
+aantalschud = 3
+schuddekerstboom1()
+}
+function schuddekerstboom1()
+{
+if (aantalschud%3==0) kerstboom2.src = 'kerstboom2nummer2.bmp'
+if (aantalschud%3==1) kerstboom2.src = 'kerstboom2nummer1.bmp'
+if (aantalschud%3==2) kerstboom2.src = 'kerstboom2nummer3.bmp'
+schuddekerstboom2()
+}
+function schuddekerstboom2()
+{
+aantalschud++
+if (aantalschud<19) setTimeout('schuddekerstboom1()',25)
+else { 
+if (kamer19_1p_nummer1_gepakt==0) kamer19munt1.style.visibility = 'visible'
+if (kamer19_1p_nummer2_gepakt==0) kamer19munt2.style.visibility = 'visible'
+if (kamer19_1p_nummer3_gepakt==0) kamer19munt3.style.visibility = 'visible'
+if (kamer19_1p_nummer4_gepakt==0) kamer19munt4.style.visibility = 'visible' }
+}
+function spel1()
+{
+
+}
+function belAan()
+{
+if (huisnummervak.value==87) { huisnummervak.value = -42
+setTimeout('doe(34)',400) }
+if (huisnummervak.value==45) { inmuseumgeweest = 1
+kamernum = 22
+doealles() }
+}
+function oog(ditoog)
+{
+vierdeoog = derdeoog
+derdeoog = tweedeoog
+tweedeoog = eersteoog
+eersteoog = ditoog
+if (eersteoog==2) if (tweedeoog==1) if (derdeoog==1) { kamernum = 24
+doealles() }
+}
+hoofdgedraaid = 0
+function draaihoofd1()
+{
+if (hoofdgedraaid==1) kamer24achterhoofd1mond.style.visibility = 'hidden'
+desrc = 'kamer24achterhoofd'
+desrc += draaivolgorde[draaitel]
+desrc += '.bmp'
+kamer24achterhoofdfoto.src = desrc
+
+draaitel++
+draaihoofd2()
+}
+function draaihoofd2()
+{
+if (draaivolgorde[draaitel]!=undefined) setTimeout('draaihoofd1()',100)
+else { hoofdgedraaid++
+if (hoofdgedraaid==1) kamer24achterhoofd1mond.style.visibility = 'visible'
+else { kamer24achterhoofd1mond.style.visibility = 'hidden'
+if (hoofdgedraaid==2) kamer24deurknop.style.visibility = 'visible' }
+draaitel = 0 }
+}
+function lift(naardeze2)
+{
+ge3t = 1
+if (liftverdieping!=3.5) ge3t = 0
+naardeze = naardeze2
+if (naardeze>liftverdieping) { min = 0
+if (liftverdieping==3.5) setTimeout('tellerloop1()',1000)
+else { tellerloop1() }}
+else { min = 1
+setTimeout('tellerloop1()',1000) }
+
+}
+function tellerloop1()
+{
+
+if (min==0)
+{ 
+	bijdeze = 4
+	if (liftverdieping!=3.5) liftverdieping++
+	else
+	{
+		liftverdieping = liftverdieping + 0.5
+	}
+}
+else
+{
+	bijdeze = 3
+	if (liftverdieping!=3.5) liftverdieping--
+	else
+	{
+		liftverdieping = liftverdieping - 0.5
+	}
+}
+if ((liftverdieping==bijdeze) && (ge3t==0))
+{
+	ge3t = 1
+	if (min==0) liftverdieping--
+	else
+	{
+		liftverdieping++
+	}
+	if (naardeze==3.5) liftverdieping = 3.5
+}
+tellerloop2()
+}
+function tellerloop2()
+{
+if (min==0) { naardeze2 = naardeze // + 1
+if (naardeze2!=liftverdieping) setTimeout('tellerloop1()',1000)
+//else { alert() }
+}
+else { naardeze2 = naardeze//  - 1
+if (naardeze2!=liftverdieping) setTimeout('tellerloop1()',1000)
+//else { alert() }
+}
+verdieping.value = liftverdieping
+}
+doe(44)
+</script>
+Snel naar een kamer toe:
+<p>
+<input type="button" value="De woonkamer" name="B3" onclick="naarkamer(1)">
+<input type="button" value="De gang" name="B3" onclick="naarkamer(2)">
+<input type="button" value="De balkonkamer" name="B3" onclick="naarkamer(3)">
+<input type="button" value="De overloop" name="B3" onclick="naarkamer(4)">
+<input type="button" value="De studeerkamer" name="B3" onclick="naarkamer(5)">
+<input type="button" value="De zitkamer" name="B3" onclick="naarkamer(6)">
+<input type="button" value="De keuken" name="B3" onclick="naarkamer(7)">
+<input type="button" value="De bijkeuken" name="B3" onclick="naarkamer(8)">
+<input type="button" value="De opbergruimte" name="B3" onclick="naarkamer(9)">
+<input type="button" value="De eetkamer" name="B3" onclick="naarkamer(12)">
+<input type="button" value="De 1e slaapkamer" name="B3" onclick="naarkamer(13)">
+<input type="button" value="De badkamer" name="B3" onclick="naarkamer(14)">
+<input type="button" value="De 2e slaapkamer" name="B3" onclick="naarkamer(15)">
+
+</p>
+
+</body>
+
+</html>
